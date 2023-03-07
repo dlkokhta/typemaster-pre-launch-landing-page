@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,700;0,900;1,400&display=swap');
 
 
 * {
@@ -117,10 +116,13 @@ body {
     color:var(--white);
    
 }
+.header-section-3 {
+  overflow: hidden;
+}
 
 .header-keyboard {
-    max-width: 104%;
-	border-radius: 12px;
+    max-width: 100%;
+  	border-radius: 12px;
     margin-left: 24px;
     margin-top: 24.5px;
     
@@ -412,5 +414,30 @@ body {
     line-height: 26px;
     letter-spacing: 0px;
     text-align: left;
+    
+  }
+
+  @media (min-width:768px) {
+   
+    .white-btn {
+      width: 175px;
+      height: 58px;
+      margin-right: 40px;
+    }
+    .header-section-1 {
+      gap: 474px;
+      margin-top: 49px;
+      margin-left: 39px;
+    }
+
+    .section-between-1-2 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title {
+      margin-left: 39px;
+    }
+
     
   }
